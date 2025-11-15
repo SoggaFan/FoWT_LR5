@@ -17,9 +17,9 @@ function createCard(dish) {
     <img src="${dish.image}" alt="${dish.name}">
     <h3>${dish.name}</h3>
     <div class="sizes">
-      <label><input type="radio" name="size-${dish.keyword}" value="small" checked> Мал</label>
-      <label><input type="radio" name="size-${dish.keyword}" value="medium"> Ср</label>
-      <label><input type="radio" name="size-${dish.keyword}" value="large"> Бол</label>
+      <label><input type="radio" name="size-${dish.keyword}" value="small" checked> Мал. </label>
+      <label><input type="radio" name="size-${dish.keyword}" value="medium"> Ср. </label>
+      <label><input type="radio" name="size-${dish.keyword}" value="large"> Бол. </label>
     </div>
     <input type="number" min="1" value="1" class="count">
     <button type="button">Добавить</button>`;
