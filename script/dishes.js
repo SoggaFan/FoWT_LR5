@@ -1,0 +1,178 @@
+const dishes = [
+  // --- СУПЫ ---
+  {
+    keyword: "borsch",
+    name: "Борщ",
+    category: "soup",
+    price: 180,
+    image: "./images/soup/1.jpg",
+  },
+  {
+    keyword: "gazpacho",
+    name: "Гаспачо",
+    category: "soup",
+    price: 150,
+    image: "./images/soup/2.jpg",
+  },
+  {
+    keyword: "mushroom-soup",
+    name: "Грибной суп",
+    category: "soup",
+    price: 160,
+    image: "./images/soup/3.jpg",
+  },
+  {
+    keyword: "chicken-soup",
+    name: "Куриный суп",
+    category: "soup",
+    price: 170,
+    image: "./images/soup/4.jpg",
+  },
+  {
+    keyword: "tomato-soup",
+    name: "Томатный суп",
+    category: "soup",
+    price: 160,
+    image: "./images/soup/5.jpg",
+  },
+  {
+    keyword: "fish-soup",
+    name: "Уха",
+    category: "soup",
+    price: 190,
+    image: "./images/soup/6.jpg",
+  },
+
+  // --- ГЛАВНЫЕ ---
+  {
+    keyword: "cutlet",
+    name: "Котлета домашняя",
+    category: "main",
+    price: 300,
+    image: "./images/meal/1.jpg",
+  },
+  {
+    keyword: "salmon",
+    name: "Лосось на гриле",
+    category: "main",
+    price: 460,
+    image: "./images/meal/2.jpg",
+  },
+
+  {
+    keyword: "pasta",
+    name: "Паста с овощами",
+    category: "main",
+    price: 250,
+    image: "./images/meal/3.jpg",
+  },
+  {
+    keyword: "rice",
+    name: "Рис с грибами",
+    category: "main",
+    price: 220,
+    image: "./images/meal/4.jpg",
+  },
+  {
+    keyword: "steak",
+    name: "Стейк",
+    category: "main",
+    price: 450,
+    image: "./images/meal/5.jpg",
+  },
+  {
+    keyword: "fish-fillets",
+    name: "Филе рыбы",
+    category: "main",
+    price: 410,
+    image: "./images/meal/6.jpg",
+  },
+
+  // --- САЛАТЫ ---
+  {
+    keyword: "bruschetta",
+    name: "Брускетта",
+    category: "starter",
+    price: 150,
+    image: "./images/salad/1.jpg",
+  },
+  {
+    keyword: "salad-greek",
+    name: "Греческий салат",
+    category: "starter",
+    price: 180,
+    image: "./images/salad/2.jpg",
+  },
+  {
+    keyword: "salad-chicken",
+    name: "Салат с курицей",
+    category: "starter",
+    price: 170,
+    image: "./images/salad/3.jpg",
+  },
+  {
+    keyword: "salad-fish",
+    name: "Салат с тунцом",
+    category: "starter",
+    price: 200,
+    image: "./images/salad/4.jpg",
+  },
+  {
+    keyword: "salad-beet",
+    name: "Свекольный салат",
+    category: "starter",
+    price: 140,
+    image: "./images/salad/5.jpg",
+  },
+  {
+    keyword: "salad-caesar",
+    name: "Цезарь",
+    category: "starter",
+    price: 190,
+    image: "./images/salad/6.jpg",
+  },
+
+  // --- НАПИТКИ ---
+  {
+    keyword: "orange",
+    name: "Апельсиновый сок",
+    category: "drink",
+    price: 90,
+    image: "./images/juice/1.jpg",
+  },
+  {
+    keyword: "coffee",
+    name: "Кофе",
+    category: "drink",
+    price: 100,
+    image: "./images/juice/2.jpg",
+  },
+  {
+    keyword: "milkshake",
+    name: "Молочный коктейль",
+    category: "drink",
+    price: 150,
+    image: "./images/juice/3.jpg",
+  },
+  {
+    keyword: "carrot",
+    name: "Морковный сок",
+    category: "drink",
+    price: 100,
+    image: "./images/juice/4.jpg",
+  },
+  {
+    keyword: "tea",
+    name: "Чай",
+    category: "drink",
+    price: 80,
+    image: "./images/juice/5.jpg",
+  },
+  {
+    keyword: "apple",
+    name: "Яблочный сок",
+    category: "drink",
+    price: 90,
+    image: "./images/juice/6.jpg",
+  },
+];
